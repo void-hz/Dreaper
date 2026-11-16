@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated scan evidence and reports
+scans/*
+!scans/.gitkeep
+output/*
+!output/.gitkeep
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
